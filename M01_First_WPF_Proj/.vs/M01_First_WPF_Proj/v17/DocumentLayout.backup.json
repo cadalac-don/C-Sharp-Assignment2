@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\vaugh\\source\\repos\\C-Sharp-Assignment2\\M01_First_WPF_Proj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D56DD0F1-2A75-4A2C-B733-23C3B5AC9322}|M01_First_WPF_Proj\\M01_First_WPF_Proj.csproj|C:\\Users\\vaugh\\source\\repos\\C-Sharp-Assignment2\\M01_First_WPF_Proj\\m01_first_wpf_proj\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D56DD0F1-2A75-4A2C-B733-23C3B5AC9322}|M01_First_WPF_Proj\\M01_First_WPF_Proj.csproj|c:\\users\\vaugh\\source\\repos\\c-sharp-assignment2\\m01_first_wpf_proj\\m01_first_wpf_proj\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D56DD0F1-2A75-4A2C-B733-23C3B5AC9322}|M01_First_WPF_Proj\\M01_First_WPF_Proj.csproj|solutionrelative:m01_first_wpf_proj\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D56DD0F1-2A75-4A2C-B733-23C3B5AC9322}|M01_First_WPF_Proj\\M01_First_WPF_Proj.csproj|c:\\users\\vaugh\\source\\repos\\c-sharp-assignment2\\m01_first_wpf_proj\\m01_first_wpf_proj\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D56DD0F1-2A75-4A2C-B733-23C3B5AC9322}|M01_First_WPF_Proj\\M01_First_WPF_Proj.csproj|C:\\Users\\vaugh\\source\\repos\\C-Sharp-Assignment2\\M01_First_WPF_Proj\\m01_first_wpf_proj\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D56DD0F1-2A75-4A2C-B733-23C3B5AC9322}|M01_First_WPF_Proj\\M01_First_WPF_Proj.csproj|solutionrelative:m01_first_wpf_proj\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -22,12 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -49,8 +45,7 @@
               "ToolTip": "C:\\Users\\vaugh\\source\\repos\\C-Sharp-Assignment2\\M01_First_WPF_Proj\\M01_First_WPF_Proj\\MainWindow.xaml",
               "RelativeToolTip": "M01_First_WPF_Proj\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-14T19:02:05.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T19:02:05.702Z"
             },
             {
               "$type": "Document",
