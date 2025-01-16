@@ -13,23 +13,23 @@
             <Border BorderBrush="red"  BorderThickness="2" Margin="26,10,39,234">
                 <StackPanel >
                     <Separator Width="40" Background="Transparent"/>
-                    <Button x:Name="hair1" Content="Hair 1" Width="76" Margin="10" Click="button_Click"/>
-                    <Button x:Name="hair2" Content="Hair 2" Width="76" Margin="10" Click="button_Click" />
+                    <Button x:Name="hair1" Content="Hair 1" Width="76" Margin="10" Click="hairOne_Button_Click"/>
+                    <Button x:Name="hair2" Content="Hair 2" Width="76" Margin="10" Click="hairTwo_Button_Click" />
                 </StackPanel>
             </Border>
 
             <Border BorderBrush="Green"  BorderThickness="2" Margin="26,120,39, 120">
                 <StackPanel >
                     <Separator Width="40" Background="Transparent"/>
-                    <Button x:Name="eyes1" Content="Eyes 1" Width="76" Margin="10" Click="button_Click"/>
-                    <Button x:Name="eyes2" Content="Eyes 2" Width="76" Margin="10" Click="button_Click" />
+                    <Button x:Name="eyes1" Content="Eyes 1" Width="76" Margin="10" Click="eyesOne_Button_Click"/>
+                    <Button x:Name="eyes2" Content="Eyes 2" Width="76" Margin="10" Click="eyesTwo_Button_Click" />
                 </StackPanel>
             </Border>
 
             <Border BorderBrush="Aqua"  BorderThickness="2" Margin="26,235,39,40">
                 <StackPanel >
                     <Separator Width="40" Background="Transparent"/>
-                    <Button x:Name="Random" Content="Random Face" Width="76" Margin="10" Click="button_Click"/>
+                    <Button x:Name="Random" Content="Random Face" Width="76" Margin="10" Click="randomFace_Button_Click"/>
                 </StackPanel>
             </Border>
             <CheckBox x:Name="checkBox" Content="CheckBox" HorizontalAlignment="Center" Margin="0,310,0,0" Width="100" Checked="checkBox_Checked"/>
@@ -53,22 +53,22 @@
                 <ComboBoxItem Content="ComboBoxItem"/>
             </ComboBox>
             <Label Content="Slide one" HorizontalAlignment="Left" Margin="34,194,0,0" VerticalAlignment="Top" Height="26" Width="59" Grid.Column="1"/>
-            <Slider x:Name="sliderTest" HorizontalAlignment="Left" Margin="6,225,0,0" VerticalAlignment="Top" Width="120" ValueChanged="sliderTest_ValueChanged" SelectionEnd="100" SelectionStart="1" IsSelectionRangeEnabled="True" TickPlacement="BottomRight" Value="5" Minimum="-4" Grid.ColumnSpan="3" Height="24" Grid.Column="1"/>
+            <Slider x:Name="sliderTest" HorizontalAlignment="Left" Margin="6,225,0,0" VerticalAlignment="Top" Width="120" ValueChanged="sliderTest_ValueChanged" SelectionEnd="100" SelectionStart="1" IsSelectionRangeEnabled="True" TickPlacement="BottomRight" Value="5" Minimum="1" Grid.ColumnSpan="3" Height="24" Grid.Column="1"/>
         </Grid>
         <Grid x:Name="outerGrid2" Margin="0,740,1030,0" >
             <Border BorderBrush="#FF179AC8" BorderThickness="3"  />
             <Border BorderBrush="Violet"  BorderThickness="2" Margin="26,10,39,164">
                 <StackPanel >
                     <Separator Width="40" Background="Transparent"/>
-                    <Button x:Name="nose1" Content="Nose 1" Width="76" Margin="10" Click="button_Click"/>
-                    <Button x:Name="nose2" Content="Nose 2" Width="76" Margin="10" Click="button_Click" />
+                    <Button x:Name="nose1" Content="Nose 1" Width="76" Margin="10" Click="noseOne_Button_Click"/>
+                    <Button x:Name="nose2" Content="Nose 2" Width="76" Margin="10" Click="noseTwo_Button_Click" />
                 </StackPanel>
             </Border>
             <Border BorderBrush="Brown"  BorderThickness="2" Margin="26,120,39,50">
                 <StackPanel >
                     <Separator Width="40" Background="Transparent"/>
-                    <Button x:Name="mouth1" Content="Mouth 1" Width="76" Margin="10" Click="button_Click"/>
-                    <Button x:Name="mouth2" Content="Mouth 2" Width="76" Margin="10" Click="button_Click" />
+                    <Button x:Name="mouth1" Content="Mouth 1" Width="76" Margin="10" Click="mouthOne_Button_Click"/>
+                    <Button x:Name="mouth2" Content="Mouth 2" Width="76" Margin="10" Click="mouthTwo_Button_Click" />
                 </StackPanel>
             </Border>
             <Button x:Name="Add_Face" Content="Add Face" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="76" Click="Add_Face_Click" Margin="26,236,0,0" RenderTransformOrigin="0.566,-0.699"/>
