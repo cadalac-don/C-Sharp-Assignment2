@@ -9,8 +9,44 @@
     <Grid x:Name="myGrid">
         <Canvas x:Name="myCanvas" HorizontalAlignment="Left" Height="1000" Margin="230,17,0,0" VerticalAlignment="Top" Width="1000"/>
         <Grid x:Name="myGrid2" Margin="0,0,1030,685">
-            <Border BorderBrush="Black"  BorderThickness="2" Margin="0,0,0,-20"/>
-            <Border BorderBrush="red"  BorderThickness="2" Margin="26,10,39,234">
+
+            <DockPanel Margin="0,0,0,262">
+                <Menu x:Name="menu" IsMainMenu="True" Height="20" Margin="10,0,0,0" VerticalAlignment="Top" >
+                    <MenuItem Header="MainMenu">
+                        <MenuItem Header="_Face" >
+                            <MenuItem Header="_Default Face" Click="Add_Face_Click" InputGestureText="ctrl+n" />
+                            <MenuItem Header="_Random Face" Click="randomFace_Button_Click"  InputGestureText="ctrl+r" />
+                        </MenuItem>
+                        <MenuItem Header="_Hairs" >
+                            <MenuItem Header="_Hair 1" Click="hairOne_Button_Click" InputGestureText="F1" Command="{Binding hairCMD1}"/>
+                            <MenuItem Header="_Hair 2" Click="hairTwo_Button_Click"  InputGestureText="F2" Command="{Binding hairCMD2}"/>
+                            <MenuItem Header="_Hair 3" Click="hairThree_Button_Click"  InputGestureText="F3" Command="{Binding hairCMD3}"/>
+                            <MenuItem Header="_Hair 4" Click="hairFour_Button_Click"  InputGestureText="F4" Command="{Binding hairCMD4}"/>
+                        </MenuItem>
+                        <MenuItem Header="_Eyes" >
+                            <MenuItem Header="_Eyes 1" Click="eyesOne_Button_Click" InputGestureText="F5" Command="{Binding eyesCMD5}"/>
+                            <MenuItem Header="_Eyes 2" Click="eyesTwo_Button_Click"  InputGestureText="F6" Command="{Binding eyesCMD6}"/>
+                            <MenuItem Header="_Eyes 3" Click="eyesThree_Button_Click"  InputGestureText="F7" Command="{Binding eyesCMD7}"/>
+                            <MenuItem Header="_Eyes 4" Click="eyesFour_Button_Click"  InputGestureText="F8" Command="{Binding eyesCMD8}"/>
+                        </MenuItem>
+                        <MenuItem Header="_Noses" >
+                            <MenuItem Header="_Nose 1" Click="noseOne_Button_Click" InputGestureText="F9" Command="{Binding noseCMD9}"/>
+                            <MenuItem Header="_Nose 2" Click="noseTwo_Button_Click"  InputGestureText="F10" Command="{Binding noseCMD10}"/>
+                            <MenuItem Header="_Nose 3" Click="noseThree_Button_Click"  InputGestureText="F11" Command="{Binding noseCMD11}"/>
+                            <MenuItem Header="_Nose 4" Click="noseFour_Button_Click"  InputGestureText="F12" Command="{Binding noseCMD12}"/>
+                        </MenuItem>
+                        <MenuItem Header="_Mouths" >
+                            <MenuItem Header="_Mouth 1" Click="mouthOne_Button_Click" InputGestureText="ctrl+a" Command = "{Binding noseCMD13}"/>
+                            <MenuItem Header="_Mouth 2" Click="mouthTwo_Button_Click"  InputGestureText="ctrl+b" Command = "{Binding noseCMD14}"/>
+                            <MenuItem Header="_Mouth 3" Click="mouthThree_Button_Click"  InputGestureText="ctrl+c" Command = "{Binding noseCMD15}"/>
+                            <MenuItem Header="_Mouth 4" Click="mouthFour_Button_Click"  InputGestureText="ctrl+d" Command = "{Binding noseCMD16}"/>
+                        </MenuItem>
+                    </MenuItem>
+                </Menu>
+                <Separator Width="200" Background="Transparent"/>
+            </DockPanel>
+            
+            <Border BorderBrush="red"  BorderThickness="2" Margin="26,50,39,184">
                 <StackPanel >
                     <Separator Width="40" Background="Transparent"/>
                     <Button x:Name="hair1" Content="Hair 1" Width="76" Margin="10" Click="hairOne_Button_Click"/>
@@ -18,42 +54,69 @@
                 </StackPanel>
             </Border>
 
-            <Border BorderBrush="Green"  BorderThickness="2" Margin="26,120,39, 120">
-                <StackPanel >
+            <Border BorderBrush="Green"  BorderThickness="2" Margin="26,150,39, 80">
+                <StackPanel HorizontalAlignment="Left" Width="151" >
                     <Separator Width="40" Background="Transparent"/>
                     <Button x:Name="eyes1" Content="Eyes 1" Width="76" Margin="10" Click="eyesOne_Button_Click"/>
                     <Button x:Name="eyes2" Content="Eyes 2" Width="76" Margin="10" Click="eyesTwo_Button_Click" />
                 </StackPanel>
             </Border>
 
-            <Border BorderBrush="Aqua"  BorderThickness="2" Margin="26,235,39,40">
+            <Border BorderBrush="Aqua"  BorderThickness="2" Margin="26,265,39,10">
                 <StackPanel >
                     <Separator Width="40" Background="Transparent"/>
                     <Button x:Name="Random" Content="Random Face" Width="76" Margin="10" Click="randomFace_Button_Click"/>
                 </StackPanel>
             </Border>
-            <CheckBox x:Name="checkBox" Content="CheckBox" HorizontalAlignment="Center" Margin="0,310,0,0" Width="100" Checked="checkBox_Checked"/>
+
         </Grid>
         <Grid x:Name="outerGrid1" Margin="0,371,1030,287" >
+            <!--
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="7*"/>
                 <ColumnDefinition Width="100*"/>
                 <ColumnDefinition Width="16*"/>
                 <ColumnDefinition Width="97*"/>
             </Grid.ColumnDefinitions>
-            <Border BorderBrush="Silver" BorderThickness="3" Grid.ColumnSpan="4"  />
+            -->
+            <Border BorderBrush="Aqua"  BorderThickness="2" Margin="0,160,0,118">
+                <StackPanel HorizontalAlignment="Left" Width="208" >
+                    <RadioButton Content="Nose 1" HorizontalAlignment="Left" Margin="7,10,0,0" Checked="RadioButton_Checked_1" Grid.Column="1"/>
+                    <RadioButton Content="Nose 2" Margin="7,20,0,0" Checked="RadioButton_Checked_2"/>
+                    <RadioButton Content="Nose 3" Margin="7,-55,0,0" Checked="RadioButton_Checked_3" HorizontalAlignment="Right" Width="85"/>
+                    <RadioButton Content="Nose 4" HorizontalAlignment="Right" Margin="0,-25,0,0" Checked="RadioButton_Checked_4" Grid.Column="1" Height="23" Width="85"/>
+                </StackPanel>
+            </Border>
 
-            <Label Content="Pick one" HorizontalAlignment="Left" Margin="29,123,0,0" VerticalAlignment="Top" Height="26" Width="55" Grid.Column="1"/>
-            <ComboBox x:Name="comboTest" HorizontalAlignment="Left" Margin="3,154,0,0" VerticalAlignment="Top" Width="120" 
-                 SelectedIndex="2"
-                 SelectionChanged="comboTest_SelectionChanged" Grid.ColumnSpan="3" Height="22" Grid.Column="1">
-                <ComboBoxItem Content="Alice"/>
-                <ComboBoxItem Content="Bob"/>
-                <ComboBoxItem Content="Charlie"/>
-                <ComboBoxItem Content="ComboBoxItem"/>
-            </ComboBox>
-            <Label Content="Slide one" HorizontalAlignment="Left" Margin="34,194,0,0" VerticalAlignment="Top" Height="26" Width="59" Grid.Column="1"/>
-            <Slider x:Name="sliderTest" HorizontalAlignment="Left" Margin="6,225,0,0" VerticalAlignment="Top" Width="120" ValueChanged="sliderTest_ValueChanged" SelectionEnd="100" SelectionStart="1" IsSelectionRangeEnabled="True" TickPlacement="BottomRight" Value="5" Minimum="1" Grid.ColumnSpan="3" Height="24" Grid.Column="1"/>
+            <Border BorderBrush="Aqua"  BorderThickness="2" Margin="0,0,0,278">
+                <StackPanel HorizontalAlignment="Left" Width="208" >
+                    <Label Content="Pick 1 Set of Eyes" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="26" Width="113" Grid.Column="1" RenderTransformOrigin="0.327,-1.46" Grid.ColumnSpan="3"/>
+                    <ComboBox x:Name="comboTest" Width="131" 
+                   SelectedIndex="2"
+                 SelectionChanged="comboTest_SelectionChanged" Height="26" RenderTransformOrigin="0.179,0.925">
+                        <ComboBoxItem Content="Set 1"/>
+                        <ComboBoxItem Content="Set 2"/>
+                        <ComboBoxItem Content="Set 3"/>
+                        <ComboBoxItem Content="Set 4"/>
+                    </ComboBox>
+                </StackPanel>
+            </Border>
+            
+            <Border BorderBrush="Aqua"  BorderThickness="2" Margin="0,70,0,216">
+                <StackPanel HorizontalAlignment="Left" Width="208" >
+            <Label Content="Slide For Mouth" HorizontalAlignment="Left" Margin="7,10,0,0" VerticalAlignment="Top" Height="26" Width="106" Grid.Column="1" Grid.ColumnSpan="2"/>
+            <Slider x:Name="sliderTest" HorizontalAlignment="Left" Margin="7,10,0,0" VerticalAlignment="Top" Width="120" ValueChanged="sliderTest_ValueChanged" SelectionEnd="10" SelectionStart="0" IsSelectionRangeEnabled="True" TickPlacement="BottomRight" Value="5" Minimum="0" Grid.ColumnSpan="3" Height="24" Grid.Column="1"/>
+            </StackPanel>
+            </Border>
+            
+            <Border BorderBrush="Gold"  BorderThickness="2" Margin="0,250,0,0">
+                <StackPanel HorizontalAlignment="Left" Width="208" >
+            <CheckBox x:Name="checkBox1" Content="Hair 1" HorizontalAlignment="Left" Margin="7,10,0,0" Width="100" Checked="checkBoxHairOne_Checked" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <CheckBox x:Name="checkBox2" Content="Hair 2" HorizontalAlignment="Left" Margin="7,20,0,0" Width="100" Checked="checkBoxHairTwo_Checked" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <CheckBox x:Name="checkBox3" Content="Hair 3" HorizontalAlignment="Right" Margin="7,-50,0,0" Width="100" Checked="checkBoxHairThree_Checked" Grid.ColumnSpan="2" Grid.Column="1"/>
+            <CheckBox x:Name="checkBox4" Content="Hair 4" HorizontalAlignment="Right" Margin="7,-20,0,0" Width="100" Checked="checkBoxHairFour_Checked" Grid.ColumnSpan="2" Grid.Column="1"/>
+            </StackPanel>
+            </Border>
         </Grid>
         <Grid x:Name="outerGrid2" Margin="0,740,1030,0" >
             <Border BorderBrush="#FF179AC8" BorderThickness="3"  />
@@ -72,7 +135,6 @@
                 </StackPanel>
             </Border>
             <Button x:Name="Add_Face" Content="Add Face" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="76" Click="Add_Face_Click" Margin="26,236,0,0" RenderTransformOrigin="0.566,-0.699"/>
-            <Button x:Name="buttonTest" Content="Button" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="75" Click="buttonTest_Click" Margin="110,236,0,0"/>
-        </Grid>
+            </Grid>
     </Grid>
 </Window>
