@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -40,8 +41,8 @@ namespace M01_First_WPF_Proj
         private CommandHandler cmdNewFace16;
         private CommandHandler cmdNewFace17;
         private CommandHandler cmdNewFace18;
+        private CommandHandler cmdNewFace19;
 
-          
         public MainWindow()
         {
             InitializeComponent();
@@ -72,7 +73,7 @@ namespace M01_First_WPF_Proj
 
             cmdNewFace17 = new CommandHandler(() => randomFace(), true);
             cmdNewFace18 = new CommandHandler(() => MyImageMethod(), true);
-
+            cmdNewFace19 = new CommandHandler(() => helpMe(), true);
 
             // Create scope to commands from XAML
             // find "newFaceCMD1" in the XAML
@@ -97,6 +98,7 @@ namespace M01_First_WPF_Proj
                 newFaceCMD16 = cmdNewFace16,
                 newFaceCMD17 = cmdNewFace17,
                 newFaceCMD18 = cmdNewFace18,
+                newFaceCMD19 = cmdNewFace19,
             };
 
             // Key Bindings
@@ -118,6 +120,7 @@ namespace M01_First_WPF_Proj
             InputBindings.Add(new KeyBinding(cmdNewFace16, new KeyGesture(Key.D, ModifierKeys.Control)));
             InputBindings.Add(new KeyBinding(cmdNewFace17, new KeyGesture(Key.R, ModifierKeys.Control)));
             InputBindings.Add(new KeyBinding(cmdNewFace18, new KeyGesture(Key.N, ModifierKeys.Control)));
+            InputBindings.Add(new KeyBinding(cmdNewFace19, new KeyGesture(Key.H, ModifierKeys.Control)));
         }
 
         /// <summary>
@@ -165,6 +168,15 @@ namespace M01_First_WPF_Proj
             int rx2 = random.Next(10, 200);
             int ry2 = random.Next(10, 200);
             MyLineMethod(rx1, ry1, rx2, ry2);
+        }
+        private void help_Button_Click(object sender, RoutedEventArgs e) {
+
+            helpMe();
+        }
+        private void helpMe() {
+            System.Windows.MessageBox.Show("Help is here...");
+            string filePath = @"..\..\HelpNDoc tutorial.chm";
+            Process.Start(new ProcessStartInfo(filePath) { UseShellExecute = true });
         }
 
         BitmapImage imgHair1 = new BitmapImage(new Uri("../../../images/hair1.png", UriKind.Relative));

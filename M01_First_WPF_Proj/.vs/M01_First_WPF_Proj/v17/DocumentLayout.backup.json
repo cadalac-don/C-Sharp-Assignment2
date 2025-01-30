@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{D56DD0F1-2A75-4A2C-B733-23C3B5AC9322}|M01_First_WPF_Proj\\M01_First_WPF_Proj.csproj|solutionrelative:m01_first_wpf_proj\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D56DD0F1-2A75-4A2C-B733-23C3B5AC9322}|M01_First_WPF_Proj\\M01_First_WPF_Proj.csproj|c:\\users\\vaugh\\source\\repos\\c-sharp-assignment2\\m01_first_wpf_proj\\m01_first_wpf_proj\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D56DD0F1-2A75-4A2C-B733-23C3B5AC9322}|M01_First_WPF_Proj\\M01_First_WPF_Proj.csproj|C:\\Users\\vaugh\\source\\repos\\C-Sharp-Assignment2\\M01_First_WPF_Proj\\m01_first_wpf_proj\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D56DD0F1-2A75-4A2C-B733-23C3B5AC9322}|M01_First_WPF_Proj\\M01_First_WPF_Proj.csproj|solutionrelative:m01_first_wpf_proj\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{D56DD0F1-2A75-4A2C-B733-23C3B5AC9322}|M01_First_WPF_Proj\\M01_First_WPF_Proj.csproj|solutionrelative:m01_first_wpf_proj\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D56DD0F1-2A75-4A2C-B733-23C3B5AC9322}|M01_First_WPF_Proj\\M01_First_WPF_Proj.csproj|c:\\users\\vaugh\\source\\repos\\c-sharp-assignment2\\m01_first_wpf_proj\\m01_first_wpf_proj\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{D56DD0F1-2A75-4A2C-B733-23C3B5AC9322}|M01_First_WPF_Proj\\M01_First_WPF_Proj.csproj|C:\\Users\\vaugh\\source\\repos\\C-Sharp-Assignment2\\M01_First_WPF_Proj\\m01_first_wpf_proj\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D56DD0F1-2A75-4A2C-B733-23C3B5AC9322}|M01_First_WPF_Proj\\M01_First_WPF_Proj.csproj|solutionrelative:m01_first_wpf_proj\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -47,13 +47,12 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\vaugh\\Source\\Repos\\C-Sharp-Assignment2\\M01_First_WPF_Proj\\M01_First_WPF_Proj\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\vaugh\\source\\repos\\C-Sharp-Assignment2\\M01_First_WPF_Proj\\M01_First_WPF_Proj\\App.xaml",
               "RelativeDocumentMoniker": "M01_First_WPF_Proj\\App.xaml",
-              "ToolTip": "C:\\Users\\vaugh\\Source\\Repos\\C-Sharp-Assignment2\\M01_First_WPF_Proj\\M01_First_WPF_Proj\\App.xaml",
+              "ToolTip": "C:\\Users\\vaugh\\source\\repos\\C-Sharp-Assignment2\\M01_First_WPF_Proj\\M01_First_WPF_Proj\\App.xaml",
               "RelativeToolTip": "M01_First_WPF_Proj\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-23T16:06:42.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T16:06:42.154Z"
             },
             {
               "$type": "Document",
@@ -65,8 +64,7 @@
               "RelativeToolTip": "M01_First_WPF_Proj\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T16:05:32.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T16:05:32.532Z"
             },
             {
               "$type": "Document",
@@ -91,8 +89,7 @@
               "RelativeToolTip": "M01_First_WPF_Proj\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T18:05:51.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T18:05:51.739Z"
             },
             {
               "$type": "Document",
@@ -127,8 +124,7 @@
               "ToolTip": "C:\\Users\\vaugh\\source\\repos\\C-Sharp-Assignment2\\M01_First_WPF_Proj\\M01_First_WPF_Proj\\MainWindow.xaml",
               "RelativeToolTip": "M01_First_WPF_Proj\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-14T19:02:05.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T19:02:05.702Z"
             },
             {
               "$type": "Document",
@@ -136,9 +132,9 @@
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\vaugh\\source\\repos\\C-Sharp-Assignment2\\M01_First_WPF_Proj\\M01_First_WPF_Proj\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "M01_First_WPF_Proj\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\vaugh\\source\\repos\\C-Sharp-Assignment2\\M01_First_WPF_Proj\\M01_First_WPF_Proj\\MainWindow.xaml.cs",
-              "RelativeToolTip": "M01_First_WPF_Proj\\MainWindow.xaml.cs",
-              "ViewState": "AgIAALsAAAAAAAAAAAAuwOAAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\vaugh\\source\\repos\\C-Sharp-Assignment2\\M01_First_WPF_Proj\\M01_First_WPF_Proj\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "M01_First_WPF_Proj\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAowLMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-14T19:02:01.72Z",
               "EditorCaption": ""
